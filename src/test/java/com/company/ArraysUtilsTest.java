@@ -11,7 +11,7 @@ public class ArraysUtilsTest {
     public void setUP(){
         arraysUtils = new ArraysUtils();
     }
-    
+
     @Test
     public void binarySearchElementExistTest(){
         int[] array = {1,3,5,7,9,10};
