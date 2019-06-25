@@ -12,7 +12,7 @@ public class ArraysUtils {
         }
         return -(l+1);
     }
-    public void bubbleSort(int[] arr){
+    public int bubbleSort(int[] arr){
         int n=arr.length;
         boolean swap;
         do{
@@ -27,5 +27,6 @@ public class ArraysUtils {
             }
             n--;
         }while(swap);
+        return n;
     }
 }
